@@ -3,6 +3,26 @@
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #ffcb05 #414042;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #414042;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ffcb05;
+    border-radius: 6px;
+  }
+  
+
 header {
     width: 70%;
     margin: 0 auto;
@@ -157,7 +177,7 @@ header {
     width: 35vw;
     height: auto;
     z-index: -1;
-    opacity: 0.3;
+    opacity: 0.1;
   }
   
 
@@ -188,26 +208,41 @@ header {
     text-align: center;
     background-image: url('Assets/Imagens/teste1.jpg');
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+    transition: 0.5s ease all;
+}
+
+.teste1:hover {
+    background-size: 110%;
 }
 
 .teste2 {
     text-align: center;
     background-image: url('Assets/Imagens/comida1\ \(1\)\ \(1\).jpg');
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
+    transition: 0.5s ease all;
+}
+
+.teste2:hover {
+    background-size: 110%;
 }
 
 .teste3 {
     text-align: center;
     background-image: url('Assets/Imagens/Catedralexterior.jpg');
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    transition: 0.5s ease all;
+}
+
+.teste3:hover {
+    background-size: 110%;
 }
 
 .texto {
