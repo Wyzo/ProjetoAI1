@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/59a9acd0a0.js" crossorigin="anonymous"></script>
+    <meta name="description" content="Projeto final de AI1">
+    <link rel="shortcut icon" href="Assets/Imagens/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="pagina_principal.css">
+    <meta name="author" content="Francisco Duarte pv25182">
+    <title>Página inicial - Viseu</title>
+</head>
+<body>
+    <header>
+        <section class="nav_topo">
+            <div class="conteudo1">
+                <img src="Assets/Imagens/logo.png" alt="">
+            </div>
+            <div class="conteudo2">
+                <nav class="nav_topo_header">
+                    <a href="">Hoteis</a>
+                    <a href="">Restaurantes</a>
+                    <a href="">Sítios a visitar</a>
+                    <a href="">Visitas guiadas</a>
+                    <a href="">Mapa interativo</a>
+                    <a href="">Contacto</a>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <section class="slider">
+        <div class="imagens">
+            <div class="centro" id="centro">
+                <h3>Bem-vindo a...</h3>
+                <h1>Viseu!</h1>
+                <button class="btn-principal">Conhecer a cidade</button>
+                <div class="slider_botoes">
+                    <button id="slider_botao" class="btn1" data-image="url('Assets/Imagens/viseu_fundo.jpg')" onclick="mudarImagemSlider()"></button>
+                    <button id="slider_botao" class="btn2" data-image="url('Assets/Imagens/viseu1.jpeg')" onclick="mudarImagemSlider()"></button>
+                    <button id="slider_botao" class="btn3" data-image="url('Assets/Imagens/teste1.jpg')" onclick="mudarImagemSlider()"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="main_informacao">
+        <div class="main_sobre">
+            <h1>Vamos começar?</h1>
+            <p>A planear uma visita a Viseu? Dê uma olhada em algumas sugestões de lugares imperdíveis, restaurantes aconchegantes e hotéis acolhedores para tornar a sua experiência na cidade mais especial!</p>
+            <div class="cartoes">
+    
+                <div class="cartao">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <p>Informação geral</p>
+                </div>
+                <div class="cartao">
+                    <i class="fa-regular fa-heart"></i>
+                    <p>O que ver</p>
+                </div>
+                <div class="cartao">
+                    <i class="fa-solid fa-signs-post"></i>
+                    <p>Como chegar</p>
+                </div>
+                <div class="cartao">
+                    <i class="fa-solid fa-bus"></i>
+                    <p>Transporte</p>
+                </div>
+                <div class="cartao">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <p>Compras</p>
+                </div>
+                
+            </div>
+            <div class="cartoes">
+    
+                <div class="cartao">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <p>Informação geral</p>
+                </div>
+                <div class="cartao">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <p>Informação geral</p>
+                </div>
+                <div class="cartao">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <p>Informação geral</p>
+                </div>
+                <div class="cartao">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <p>Informação geral</p>
+                </div>
+                <div class="cartao">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <p>Informação geral</p>
+                </div>
+            </div>
+
+            <div class="fixed-image">
+                <img src="Assets/Imagens/se_png.png" alt="Imagem fixa">
+              </div>
+              
+        </div>
+        <div class="sobre_viseu">
+            <div class="teste1">
+                <div class="texto">
+                    <h1>Porquê visitar Viseu?</h1>
+                    <p>Visitar Viseu é mergulhar em um destino repleto de história, charme e autenticidade. Conhecida como a "Cidade de Viriato", Viseu combina um rico património cultural com uma qualidade de vida ímpar. Ao passear pelas ruas do centro histórico, é impossível não se encantar com os azulejos tradicionais, as igrejas imponentes, como a Sé de Viseu, e as ruelas acolhedoras que contam séculos de história.</p>
+                </div>
+            </div>
+            <div class="teste2">
+                <div class="texto">
+                    <h1>Gastronomia?</h1>
+                    <p>A cidade é também um paraíso gastronómico, com vinhos da renomada região do Dão e pratos típicos como o cabrito assado ou o arroz de lampreia. Para os amantes da natureza, Viseu oferece tranquilidade e paisagens deslumbrantes com os seus parques e a proximidade à Serra do Caramulo.</p>
+                </div>
+            </div>
+            <div class="teste3">
+                <div class="texto">
+                    <h1>Em suma</h1>
+                    <p>Seja para explorar a história, saborear boa comida, ou simplesmente relaxar em um ambiente acolhedor e tranquilo, Viseu é um destino que merece ser descoberto.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="atracoes">
+            <h1>Principais atrações em Viseu</h1>
+            <div class="cartoes_atracoes" id="cartoes_atracoes">
+                <div class="texto_atracao">
+                    <h1 id="titulo_atracao">Parede de Azulejos</h1>
+                    <p id="texto_atracao">Situada no centro da cidade, esta linda parede de azulejos mostra o melhor da arte de Viseu.</p>
+                    <div class="slider_botoes">
+                        <button id="slider_botao" class="btn1" data-image="url('Assets/Imagens/azulejo.jpg')" onclick="mudarImagemSliderAtracoes()"></button>
+                        <button id="slider_botao" class="btn2" data-image="url('Assets/Imagens/viseu1.jpeg')" onclick="mudarImagemSliderAtracoes()"></button>
+                        <button id="slider_botao" class="btn3" data-image="url('Assets/Imagens/teste1.jpg')" onclick="mudarImagemSliderAtracoes()"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="functions.js" defer></script>
+</body>
+</html>
