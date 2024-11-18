@@ -65,7 +65,7 @@ header {
 }
 
 .centro {
-    background-image: url('Assets/Imagens/pousada2.jpeg');
+    background-image: url('Assets/Imagens/avenida2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -73,6 +73,7 @@ header {
     color: white;
     padding-top: 7%;
     padding-bottom: 7%;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
 #centro {
@@ -107,7 +108,6 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -116,6 +116,7 @@ header {
 }
 
 .hotel_info {
+    margin-top: 50px;
     width: 45%;
 }
 
@@ -123,7 +124,7 @@ header {
     width: 100%;
     background-size: 100%;
     transition: 0.5s all ease;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .hotel_info img:hover {
@@ -170,4 +171,13 @@ header {
 
 .info_nome_class_lado h1 {
     color: #414042;
+}
+
+
+.info_nome_class_lado i {
+    transition: 0.5s all ease;
+}
+
+.info_nome_class_lado i:hover {
+    transform: scale(1.5);
 }
