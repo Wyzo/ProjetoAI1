@@ -93,3 +93,63 @@ header {
     font-weight: bolder;
     font-size: 7em;
 }
+
+.info {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hoteis {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    margin-top: 50px;
+}
+
+.hotel_info {
+    margin-top: 50px;
+    width: 45%;
+}
+
+.hotel_info img {
+    width: 100%;
+    background-size: 100%;
+    transition: 0.5s all ease;
+    border-radius: 10px;
+}
+
+.btn-principal {
+    background-color: #ffcb05;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.5s all ease;
+}
+
+.btn-principal:hover {
+    background-color: #efb403;
+}
+
+.btn-secundario {
+    border: 2px solid 414042;
+    background-color: white;
+    color: #414042;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.5s all ease;
+}
+
+.classificacao {
+    color: #ffcb05;
+}
