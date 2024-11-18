@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #ffcb05 #414042;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #414042;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ffcb05;
+    border-radius: 6px;
+  }
+  
+
+header {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nav_topo {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.conteudo1 img {
+    width: 10vh;
+}
+
+.conteudo1 {
+    width: 20%;
+}
+.conteudo2 {
+    text-align: end;
+    width: 80%;
+}
+
+.conteudo a {
+    font-size: 1em;
+}
+
+.nav_topo_header a{
+    text-decoration: none;
+    color: #432005;
+    padding: 10px;
+    transition: 0.5s all ease;
+}
+
+.nav_topo_header a:hover{
+    background-color: #ffcb05;
+    color: #432005;
+    border-radius: 10px;
+}
+
+.centro {
+    background-image: url('Assets/Imagens/tabua-de-entradas.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+#centro {
+    transition: background-image 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+
+#centro.fade {
+    opacity: 0;
+}
+
+.centro h3 {
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+.centro h1 {
+    font-weight: bolder;
+    font-size: 7em;
+}
+
+.info {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hoteis {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.info {
+    margin-top: 50px;
+}
+
+.hotel_info {
+    margin-top: 50px;
+    width: 45%;
+}
+
+.hotel_info img {
+    width: 100%;
+    background-size: 100%;
+    transition: 0.5s all ease;
+    border-radius: 5px;
+}
+
+.hotel_info img:hover {
+    transform: scale(1.01); 
+}
+
+.btn-principal {
+    background-color: #ffcb05;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.5s all ease;
+}
+
+.btn-principal:hover {
+    background-color: #efb403;
+}
+
+.btn-secundario {
+    border: 2px solid 414042;
+    background-color: white;
+    color: #414042;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.5s all ease;
+}
+
+
+.info_nome_class {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info_nome_class_lado {
+    color: #ffcb05;
+}
+
+
+.info_nome_class_lado h1 {
+    color: #414042;
+}
+
+
+.info_nome_class_lado i {
+    transition: 0.5s all ease;
+}
+
+.info_nome_class_lado i:hover {
+    transform: scale(1.5);
+}
