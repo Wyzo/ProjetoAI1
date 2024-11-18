@@ -107,6 +107,8 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .info {
@@ -114,7 +116,6 @@ header {
 }
 
 .hotel_info {
-    margin-top: 50px;
     width: 45%;
 }
 
@@ -123,6 +124,10 @@ header {
     background-size: 100%;
     transition: 0.5s all ease;
     border-radius: 10px;
+}
+
+.hotel_info img:hover {
+    transform: scale(1.01); 
 }
 
 .btn-principal {
@@ -150,6 +155,19 @@ header {
     transition: 0.5s all ease;
 }
 
-.classificacao {
+
+.info_nome_class {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info_nome_class_lado {
     color: #ffcb05;
+}
+
+
+.info_nome_class_lado h1 {
+    color: #414042;
 }
