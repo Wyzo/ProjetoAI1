@@ -1,11 +1,21 @@
-function mudarImagemSlider(){
+function iniciarSliderAutomatico() {
     const div_centro = document.getElementById("centro");
-    const botoes = document.querySelectorAll(".slider_botoes button");
+    const botoes = document.querySelectorAll(".slider_botoes .slider_botao");
 
-    botoes.forEach(button => {
-        button.addEventListener("click", () => {
-            const imageUrl = button.getAttribute("data-image");
-            div_centro.style.backgroundImage = imageUrl;
-        });
-    });
-}   
+    const imagens = Array.from(botoes).map(button => button.getAttribute("data-image"));
+
+    let indiceAtual = 0;
+
+    function trocarImagem() {
+        const novaImagem = imagens[indiceAtual];
+        div_centro.style.backgroundImage = `url(${novaImagem})`;
+        indiceAtual = (indiceAtual + 1) % imagens.length; 
+    }
+
+    trocarImagem(); 
+    setInterval(trocarImagem, 5000);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    iniciarSliderAutomatico();
+});
