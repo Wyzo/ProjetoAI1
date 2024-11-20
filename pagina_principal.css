@@ -26,14 +26,13 @@ body {
     border-radius: 6px;
   }
   
-
-header {
-    width: 70%;
-    margin: 0 auto;
+  header {
+    background-color: #414042;
 }
 
 .nav_topo {
-    margin-top: 10px;
+    width: 70%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -57,9 +56,9 @@ header {
 
 .nav_topo_header a{
     text-decoration: none;
-    color: #432005;
     padding: 10px;
     transition: 0.5s all ease;
+    color: white;
 }
 
 .nav_topo_header a:hover{
