@@ -250,41 +250,29 @@ header {
     text-align: center;
     background-image: url('Assets/Imagens/viseu1.jpg');
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
     transition: 0.5s ease all;
-}
-
-.teste1:hover {
-    background-size: 110%;
 }
 
 .teste2 {
     text-align: center;
     background-image: url('Assets/Imagens/comida1\ \(1\)\ \(1\).jpg');
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     transition: 0.5s ease all;
-}
-
-.teste2:hover {
-    background-size: 110%;
 }
 
 .teste3 {
     text-align: center;
     background-image: url('Assets/Imagens/viseu3.jpeg');
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     transition: 0.5s ease all;
-}
-
-.teste3:hover {
-    background-size: 110%;
 }
 
 .texto {
