@@ -21,6 +21,26 @@ body {
     background: #ffcb05;
     border-radius: 6px;
   }
+
+  .btn-principal {
+    text-decoration: none;
+    background-color: #ffcb05;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.5s all ease;
+}
+
+.btn-principal a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-principal:hover {
+    background-color: #efb403;
+}
   
 
   header {
@@ -122,19 +142,37 @@ body {
 }
 
 .info {
+    margin-top: 50px;
     text-align: center;
 }
 
 .evento {
+    margin-top: 50px;
+    margin-bottom: 10vh;
+    border-radius: 5px;
+    border: solid #f0f0f0 0.5px;
+    box-shadow: 10px 10px 73px -5px rgba(0, 0, 0, 0.195);
+}
+
+#evento1, #evento2, #evento3 img {
     text-align: center;
     background-size: 100%;
     background-position: center;
     transition: 0.5s all ease;
-    margin-top: 20px;
     margin-bottom: 20px;
+    height: 20vh;
 }
 
-.evento:hover {
+#evento3 {
+    text-align: center;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s all ease;
+    margin-bottom: 20px;
+    height: 20vh;
+}
+
+#evento1:hover {
     background-size: 105%;
 }
 
@@ -144,18 +182,26 @@ body {
     color: white;
 }
 
+.acima_evento {
+    padding: 10px;
+}
+
+.sobre_evento {
+    padding: 10px;
+}
+
+.sobre_evento p{
+    margin-bottom: 10px;
+}
+
 #evento1 {
     background-image: url('Assets/Imagens/concerto8.jpg');
 }
 
 #evento2 {
-    background-image: url('Assets/Imagens/concerto7.jpg');
+    background-image: url('Assets/Imagens/concerto9.jpg');
 }
 
 #evento3 {
-    background-image: url('Assets/Imagens/concerto6.jpg');
-}
-
-#evento4 {
-    background-image: url('Assets/Imagens/concerto5.jpg');
+    background-image: url('Assets/Imagens/concerto3.jpg');
 }
