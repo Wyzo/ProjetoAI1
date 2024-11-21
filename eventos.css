@@ -115,3 +115,47 @@ body {
     font-weight: bolder;
     font-size: 7em;
 }
+
+.main_informacao {
+    width: 70%;
+    margin: 0px auto;
+}
+
+.info {
+    text-align: center;
+}
+
+.evento {
+    text-align: center;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s all ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.evento:hover {
+    background-size: 105%;
+}
+
+.banner_evento {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    color: white;
+}
+
+#evento1 {
+    background-image: url('Assets/Imagens/concerto8.jpg');
+}
+
+#evento2 {
+    background-image: url('Assets/Imagens/concerto7.jpg');
+}
+
+#evento3 {
+    background-image: url('Assets/Imagens/concerto6.jpg');
+}
+
+#evento4 {
+    background-image: url('Assets/Imagens/concerto5.jpg');
+}
