@@ -25,6 +25,8 @@ body {
     background: #ffcb05;
     border-radius: 6px;
 }
+
+
   
 header {
     background-color: #414042;
@@ -101,7 +103,7 @@ header {
     background-color: #ffcb05;
 }
 
-.centro {
+.centro_index {
     background-image: url('Assets/Imagens/viseu1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -113,21 +115,21 @@ header {
     padding-bottom: 14%;
 }
 
-#centro {
+#centro_index {
     transition: background-image 0.5s ease-in-out, opacity 0.5s ease-in-out;
     opacity: 1;
 }
 
-#centro.fade {
+#centro_index.fade {
     opacity: 0;
 }
 
-.centro h3 {
+.centro_index h3 {
     font-weight: 200;
     font-size: 1.5em;
 }
 
-.centro h1 {
+.centro_index h1 {
     font-weight: bolder;
     font-size: 7em;
 }
