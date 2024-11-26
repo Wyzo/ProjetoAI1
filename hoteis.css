@@ -152,6 +152,10 @@ body {
     transform: scale(1.01); 
 }
 
+.botoes {
+    margin-top: 20px;
+}
+
 .btn-principal {
     background-color: #ffcb05;
     color: white;

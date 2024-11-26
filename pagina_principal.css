@@ -66,15 +66,10 @@ header {
     width: 80%;
     text-align: end;
     background-color: white;
-    clip-path: polygon(04% 0%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(4% 0%, 100% 0, 96% 100%, 0% 100%);
 }
 
-.conteudo a {
-    color: #414042;
-    font-size: 1em;
-}
-
-.nav_topo_header a{
+.nav_topo_header a {
     font-weight: 500;
     text-decoration: none;
     padding: 10px;
@@ -82,13 +77,93 @@ header {
     color: #414042;
 }
 
-.nav_topo_header a:hover{
+.nav_topo_header a:hover {
     background-color: #ffcb05;
     color: #432005;
     border-radius: 10px;
 }
 
-/*-------*/
+/* Estilos para o menu responsivo */
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #ffcb05;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .conteudo2 {
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        text-align: right;
+    }
+
+    .nav_topo_header {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        margin: 0;
+    }
+
+    .nav_topo_header a {
+        padding: 15px;
+        text-align: left;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .menu-toggle {
+        display: block;
+        margin: 10px;
+    }
+
+    .nav_topo_header.show {
+        display: flex;
+    }
+}
+
+.teste_sec {
+    color: #414042;
+    position: relative;
+    width: 70%;
+    top: 90px;
+    margin: 0 auto;
+    background: linear-gradient(119deg, rgba(2,0,36,1) 0%, rgba(255,113,5,1) 0%, rgba(255,203,5,1) 49%, rgba(255,139,67,1) 100%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 10px 10px 36px 0px rgba(0, 0, 0, 0.121);
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s all ease;
+}
+
+.teste_sec:hover {
+    background-size: 105%;
+}
+
+.teste_sec h1 {
+    font-size: 3em;
+}
+
+.teste_sec p {
+    font-size: 1.3em;
+}
+
+.paragrafo_sec {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.titulo_sec {
+    margin-top: 20px;
+}
 
 #slider_botao {
     background-color: #868686;
@@ -102,18 +177,16 @@ header {
 #slider_botao:hover {
     background-color: #ffcb05;
 }
-
 .centro_index {
     background-image: url('Assets/Imagens/viseu1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #432005;
     text-align: center;
     color: white;
     padding-top: 10%;
-    padding-bottom: 14%;
 }
+
 
 #centro_index {
     transition: background-image 0.5s ease-in-out, opacity 0.5s ease-in-out;
@@ -125,11 +198,11 @@ header {
 }
 
 .centro_index h3 {
-    font-weight: 200;
+    font-weight: 400;
     font-size: 1.5em;
 }
 
-.centro_index h1 {
+.titulo_animado span {
     font-weight: bolder;
     font-size: 7em;
 }
@@ -195,6 +268,7 @@ header {
     background-color: rgb(244, 244, 244);
     text-align: center;
     width: 15%;
+    height: 150px;
     color:#432005;
     font-size: 1.5em;
     transition: 0.5s all ease;
@@ -216,7 +290,7 @@ header {
 
 .fixed-image img {
     position: absolute;
-    top: 1150px;
+    top: 1000px;
     left: 0;
     width: 35vw;
     height: auto;

@@ -37,3 +37,8 @@ function mostrarHoras(){
 
 setInterval(mostrarHoras, 1000);
 mostrarHoras();
+
+document.querySelector('.menu-toggle').addEventListener('click', () => {
+    const menu = document.getElementById('menu');
+    menu.classList.toggle('show');
+});
