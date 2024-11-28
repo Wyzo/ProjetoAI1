@@ -173,6 +173,7 @@ ALTERAR */
     text-align: center;
     color: white;
     padding-top: 10%;
+    text-shadow: 4px 4px 15px rgba(0,0,0,0.6);
 }
 
 
@@ -200,7 +201,6 @@ ALTERAR */
 
 .titulo_animado_ativo {
     color: #ffcb05;
-    scale: 105%;
 }
 
 .btn-principal {
