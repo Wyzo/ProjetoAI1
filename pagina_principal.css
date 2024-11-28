@@ -82,7 +82,8 @@ header {
     border-radius: 10px;
 }
 
-/* Estilos para o menu responsivo */
+/* Estilos para o menu responsivo
+ALTERAR */
 .menu-toggle {
     display: none;
     font-size: 1.5rem;
@@ -132,7 +133,8 @@ header {
     width: 70%;
     top: 90px;
     margin: 0 auto;
-    background: linear-gradient(119deg, rgba(2,0,36,1) 0%, rgba(255,113,5,1) 0%, rgba(255,203,5,1) 49%, rgba(255,139,67,1) 100%);
+    /*background: linear-gradient(119deg, rgba(2,0,36,1) 0%, rgba(255,113,5,1) 0%, rgba(255,203,5,1) 49%, rgba(255,139,67,1) 100%);*/
+    background-color: #414042; 
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -204,16 +206,14 @@ header {
 .titulo_animado span {
     font-weight: bolder;
     font-size: 6em;
-}
-
-.titulo_animado span {
     letter-spacing: 1px;
     display: inline-block;
     transition: 0.3s all ease;
 }
 
-.titulo_animado span:hover {
+.titulo_animado_ativo {
     color: #ffcb05;
+    scale: 105%;
 }
 
 .btn-principal {

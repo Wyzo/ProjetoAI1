@@ -1,8 +1,10 @@
 function iniciarSliderAutomatico() {
     const div_centro = document.getElementById("centro_index");
-    const botoes = document.querySelectorAll(".slider_botoes .slider_botao");
 
-    const imagens = Array.from(botoes).map(button => button.getAttribute("data-image"));
+    const imagens = 
+    [   "Assets/Imagens/viseu1.jpg", 
+        "Assets/Imagens/viseu_teste2.jpg",
+        "Assets/Imagens/viseu_teste4.jpg"];
 
     let indiceAtual = 0;
 
@@ -19,6 +21,50 @@ function iniciarSliderAutomatico() {
 document.addEventListener("DOMContentLoaded", () => {
     iniciarSliderAutomatico();
 });
+
+function animarTitulo() {
+    const letras = document.querySelectorAll(".titulo_animado span");
+
+    let delay = 0;
+
+    letras.forEach((letra, index) => {
+        setTimeout(() => {
+            letra.classList.add("titulo_animado_ativo");
+            setTimeout(() => {
+                letra.classList.remove("titulo_animado_ativo");
+            }, 200);
+        }, delay);
+
+        delay += 200;
+    });
+
+    setTimeout(animarTitulo, delay + 10);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    animarTitulo();
+});
+
+/* ARRANJAR
+function animarTitulo() {
+    const letras = document.querySelectorAll(".titulo_animado span");
+    let delay = 0;
+
+    letras.forEach((letra, index => {
+        setTimeout(() => {
+            letra.classList.add("ativo");
+            setTimeout(() => {
+                letra.classList.remove("ativo");
+            }, 500);
+        }, delay);
+
+        delay += 200;
+    }));
+
+    setTimeout(animarTitulo, delay + 500);
+}
+
+window.onload = animarTitulo;*/
 
 function mostrarHoras(){
     const horasAtuais = new Date();
