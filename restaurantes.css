@@ -61,15 +61,9 @@ body {
     width: 80%;
     text-align: end;
     background-color: white;
-    clip-path: polygon(04% 0%, 100% 0, 100% 100%, 0% 100%);
 }
 
-.conteudo a {
-    color: #414042;
-    font-size: 1em;
-}
-
-.nav_topo_header a{
+.nav_topo_header a {
     font-weight: 500;
     text-decoration: none;
     padding: 10px;
@@ -77,14 +71,56 @@ body {
     color: #414042;
 }
 
-.nav_topo_header a:hover{
+.nav_topo_header a:hover {
     background-color: #ffcb05;
     color: #432005;
     border-radius: 10px;
 }
 
-/*-------*/
+/* Estilos para o menu responsivo
+ALTERAR */
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #ffcb05;
+    cursor: pointer;
+}
 
+@media (max-width: 768px) {
+    .conteudo2 {
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        text-align: right;
+    }
+
+    .nav_topo_header {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        margin: 0;
+    }
+
+    .nav_topo_header a {
+        padding: 15px;
+        text-align: left;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .menu-toggle {
+        display: block;
+        margin: 10px;
+    }
+
+    .nav_topo_header.show {
+        display: flex;
+    }
+}
 .centro {
     background-image: url('Assets/Imagens/arouquesa.jpg');
     background-size: cover;

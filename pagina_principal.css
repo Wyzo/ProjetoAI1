@@ -194,7 +194,7 @@ ALTERAR */
 
 .titulo_animado span {
     font-weight: bolder;
-    font-size: 6em;
+    font-size: 4em;
     letter-spacing: 1px;
     display: inline-block;
     transition: 0.3s all ease;
