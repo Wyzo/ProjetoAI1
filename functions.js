@@ -32,10 +32,10 @@ function animarTitulo() {
             letra.classList.add("titulo_animado_ativo");
             setTimeout(() => {
                 letra.classList.remove("titulo_animado_ativo");
-            }, 200);
+            }, 300);
         }, delay);
 
-        delay += 200;
+        delay += 300;
     });
 
     setTimeout(animarTitulo, delay + 10);
