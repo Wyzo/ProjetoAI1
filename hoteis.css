@@ -235,6 +235,25 @@ ALTERAR */
     border-radius: 5px;
 }
 
+.galeria_info {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.galeria_info h1 {
+    font-weight: 5vw;
+    margin-top: 20px;
+}
+
+.galeria_info p {
+    margin-bottom: 20px;
+}
+
+.galeria img  {
+    width: 45%;
+}
+
 .hotel_info img:hover {
     transform: scale(1.01); 
 }
