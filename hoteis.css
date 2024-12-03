@@ -132,6 +132,7 @@ ALTERAR */
     padding-top: 7%;
     padding-bottom: 7%;
     clip-path: polygon(100% 0, 100% 85%, 85% 100%, 0 100%, 0 0);
+    text-shadow: 4px 4px 15px rgba(0,0,0,0.6);
 }
 
 #centro {
@@ -153,11 +154,60 @@ ALTERAR */
     font-size: 7em;
 }
 
+.cartao1 {
+    margin-top: 50px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s all ease;
+}
+
 .info {
     width: 70%;
     margin: 0 auto;
     text-align: center;
 }
+
+.teste1 {
+    background-color: #0e0d2f6e;
+}
+
+.texto {
+    margin: 0 auto;
+    color: white;
+    width: 50%;
+    padding: 60px;
+}
+
+.texto h1 {
+    font-size: 10vh;
+}
+
+.btns {
+    margin-top: 20px;
+}
+
+.btn-secundario {
+    background-color: #41404200;
+}
+
+#cartao1 {
+    background-image: url('Assets/Imagens/pousada.jpg');
+}
+
+#cartao2 {
+    background-image: url('Assets/Imagens/hotel-avenida.jpg');
+}
+
+#cartao3 {
+    background-image: url('Assets/Imagens/050239-pool.jpg');
+}
+
+#cartao4 {
+    background-image: url('Assets/Imagens/hotel-grao-vasco.jpg');
+}
+
 
 .hoteis {
     width: 70%;
@@ -175,7 +225,7 @@ ALTERAR */
 
 .hotel_info {
     margin-top: 50px;
-    width: 45%;
+    width: 500px;
 }
 
 .hotel_info img {
@@ -201,6 +251,10 @@ ALTERAR */
     padding: 10px;
     font-weight: bold;
     transition: 0.5s all ease;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 .btn-principal:hover {
@@ -209,37 +263,16 @@ ALTERAR */
 
 .btn-secundario {
     border: 2px solid 414042;
-    background-color: white;
-    color: #414042;
+    background-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
     border: 0;
     border-radius: 20px;
+    border: 2px solid white;
     padding: 10px;
     font-weight: bold;
     transition: 0.5s all ease;
-}
-
-
-.info_nome_class {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.info_nome_class_lado {
-    color: #ffcb05;
-}
-
-
-.info_nome_class_lado h1 {
-    color: #414042;
-}
-
-
-.info_nome_class_lado i {
-    transition: 0.5s all ease;
-}
-
-.info_nome_class_lado i:hover {
-    transform: scale(1.5);
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
 }

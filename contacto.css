@@ -131,7 +131,7 @@ ALTERAR */
     padding-top: 7%;
     padding-bottom: 7%;
     clip-path: polygon(100% 0, 100% 85%, 85% 100%, 0 100%, 0 0);
-    box-shadow: 10px 10px 36px 0px rgba(0, 0, 0, 0.121);
+    text-shadow: 4px 4px 15px rgba(0,0,0,0.6);
 }
 
 #centro {
@@ -161,8 +161,9 @@ ALTERAR */
 
 .formulario {
     width: 80%;
-    margin: 0px auto;
-    padding: 50px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 form p {
@@ -200,6 +201,8 @@ form p {
     background-color: #ffcb05;
     padding: 10px;
     transition: 0.5s all ease;
+    
+    
 }
 
 #label_info:hover {

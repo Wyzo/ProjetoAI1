@@ -131,6 +131,7 @@ ALTERAR */
     padding-top: 7%;
     padding-bottom: 7%;
     clip-path: polygon(100% 0, 100% 85%, 85% 100%, 0 100%, 0 0);
+    text-shadow: 4px 4px 15px rgba(0,0,0,0.6);
 }
 
 #centro {
@@ -174,7 +175,7 @@ ALTERAR */
 
 .hotel_info {
     margin-top: 50px;
-    width: 45%;
+    width: 500px;
 }
 
 .hotel_info img {
