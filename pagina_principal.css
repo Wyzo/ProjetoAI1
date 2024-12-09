@@ -4,30 +4,14 @@
 }
 
 html {
-    scroll-behavior: smooth;
-}
-
-body {
     scrollbar-width: thin;
     scrollbar-color: #ffcb05 #414042;
 }
-  
-::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
-}
-  
-::-webkit-scrollbar-track {
-    background: #414042;
-}
-  
-::-webkit-scrollbar-thumb {
-    background: #ffcb05;
-    border-radius: 6px;
-}
 
-
-  
+header {
+    background-color: #414042;
+}
+ 
 header {
     background-color: #414042;
 }

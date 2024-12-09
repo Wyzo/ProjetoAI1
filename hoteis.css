@@ -295,3 +295,8 @@ ALTERAR */
     margin-right: 10px;
     margin-top: 5px;
 }
+
+.btn-secundario:hover {
+    color:#414042;
+    background-color: #ffffff;
+}

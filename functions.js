@@ -21,7 +21,7 @@ function iniciarSliderAutomatico() {
 document.addEventListener("DOMContentLoaded", () => {
     iniciarSliderAutomatico();
 });
-
+/*
 function animarTitulo() {
     const letras = document.querySelectorAll(".titulo_animado span");
 
@@ -44,7 +44,7 @@ function animarTitulo() {
 document.addEventListener("DOMContentLoaded", () => {
     animarTitulo();
 });
-
+*/
 /* ARRANJAR
 function animarTitulo() {
     const letras = document.querySelectorAll(".titulo_animado span");

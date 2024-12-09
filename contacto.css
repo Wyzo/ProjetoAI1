@@ -3,26 +3,12 @@
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-body {
+html {
     scrollbar-width: thin;
     scrollbar-color: #ffcb05 #414042;
-  }
-  
-  ::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #414042;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #ffcb05;
-    border-radius: 6px;
-  }
+}
 
-  header {
+header {
     background-color: #414042;
 }
 
