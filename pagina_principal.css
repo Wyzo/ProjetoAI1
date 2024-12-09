@@ -167,7 +167,7 @@ ALTERAR */
 }
 
 .centro_index {
-    background-image: url('Assets/Imagens/viseu1.jpg');
+    background-image: url('Assets/Imagens/Banners/viseu1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -297,7 +297,7 @@ ALTERAR */
 
 .cartao1 {
     text-align: center;
-    background-image: url('Assets/Imagens/viseu1.jpg');
+    background-image: url('Assets/Imagens/Banners/viseu1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -307,7 +307,7 @@ ALTERAR */
 
 .cartao2 {
     text-align: center;
-    background-image: url('Assets/Imagens/comida.jpg');
+    background-image: url('Assets/Imagens/Banners/comida.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -315,7 +315,7 @@ ALTERAR */
 
 .cartao3 {
     text-align: center;
-    background-image: url('Assets/Imagens/viseu2.jpeg');
+    background-image: url('Assets/Imagens/Banners/viseu2.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -355,7 +355,7 @@ ALTERAR */
 }
 
 .cartoes_atracoes {
-    background-image: url('Assets/Imagens/azulejo.jpg');
+    background-image: url('Assets/Imagens/Banners/azulejo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

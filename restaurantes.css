@@ -122,7 +122,7 @@ ALTERAR */
     }
 }
 .centro {
-    background-image: url('Assets/Imagens/arouquesa.jpg');
+    background-image: url('Assets/Imagens/Restaurantes/arouquesa.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -159,7 +159,7 @@ ALTERAR */
     text-align: center;
 }
 
-.hoteis {
+.restaurantes {
     width: 70%;
     margin: 0 auto;
     display: flex;
@@ -173,21 +173,74 @@ ALTERAR */
     margin-top: 50px;
 }
 
-.hotel_info {
+
+#cartao1 {
+    background-image: url('Assets/Imagens/Restaurantes/100papas.jpeg');
+}
+
+#cartao2 {
+    background-image: url('Assets/Imagens/Restaurantes/aromatico.jpg');
+}
+
+#cartao3 {
+    background-image: url('Assets/Imagens/Restaurantes/arouquesa.jpg');
+}
+
+#cartao4 {
+    background-image: url('Assets/Imagens/Restaurantes/pucara_.jpg');
+}
+
+.cartao1 {
     margin-top: 50px;
-    width: 500px;
-}
-
-.hotel_info img {
-    width: 100%;
-    background-size: 100%;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     transition: 0.5s all ease;
-    border-radius: 5px;
 }
 
-.hotel_info img:hover {
-    transform: scale(1.01); 
+.teste1 {
+    background-color: #0e0d2f6e;
 }
+
+.texto {
+    margin: 0 auto;
+    color: white;
+    width: 50%;
+    padding: 60px;
+}
+
+.texto h1 {
+    font-size: 10vh;
+}
+
+.btns {
+    margin-top: 20px;
+}
+
+.btn-secundario {
+    background-color: #41404200;
+}
+
+.galeria_info {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.galeria_info h1 {
+    font-weight: 5vw;
+    margin-top: 20px;
+}
+
+.galeria_info p {
+    margin-bottom: 20px;
+}
+
+.galeria img  {
+    width: 45%;
+}
+
 
 .btn-principal {
     background-color: #ffcb05;
@@ -238,4 +291,25 @@ ALTERAR */
 
 .info_nome_class_lado i:hover {
     transform: scale(1.5);
+}
+
+.btn-secundario {
+    border: 2px solid 414042;
+    background-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    border: 0;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.5s all ease;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.btn-secundario:hover {
+    color:#414042;
+    background-color: #ffffff;
 }

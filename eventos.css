@@ -122,7 +122,7 @@ ALTERAR */
 }
 
 .centro {
-    background-image: url('Assets/Imagens/concerto3.jpg');
+    background-image: url('Assets/Imagens/Eventos/concerto3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -212,13 +212,13 @@ ALTERAR */
 }
 
 #evento1 {
-    background-image: url('Assets/Imagens/concerto8.jpg');
+    background-image: url('Assets/Imagens/Eventos/concerto8.jpg');
 }
 
 #evento2 {
-    background-image: url('Assets/Imagens/concerto9.jpg');
+    background-image: url('Assets/Imagens/Eventos/concerto9.jpg');
 }
 
 #evento3 {
-    background-image: url('Assets/Imagens/concerto3.jpg');
+    background-image: url('Assets/Imagens/Eventos/concerto3.jpg');
 }

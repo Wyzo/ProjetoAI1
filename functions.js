@@ -2,9 +2,9 @@ function iniciarSliderAutomatico() {
     const div_centro = document.getElementById("centro_index");
 
     const imagens = 
-    [   "Assets/Imagens/viseu1.jpg", 
-        "Assets/Imagens/viseu_teste2.jpg",
-        "Assets/Imagens/viseu_teste4.jpg"];
+    [   "Assets/Imagens/Banners/viseu1.jpg", 
+        "Assets/Imagens/Banners/viseu_teste2.jpg",
+        "Assets/Imagens/Banners/viseu_teste4.jpg"];
 
     let indiceAtual = 0;
 
