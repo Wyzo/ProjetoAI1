@@ -6,6 +6,7 @@
 html {
     scrollbar-width: thin;
     scrollbar-color: #ffcb05 #414042;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -307,4 +308,25 @@ footer img {
     width: 100%;
     margin-bottom: -200px;
     margin-top: 50px;
+}
+
+.btn_voltaracima {
+    left: 90vw;
+    top: 90vh;
+    position: fixed;
+    width: 40px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 100%;
+    transition: 0.5s all ease;
+}
+
+.btn_voltaracima i {
+    color: #414042;
+    padding: 12px;
+}
+
+.btn_voltaracima:hover {
+    color: white;
+    background-color: #ffcb05;
 }
