@@ -209,3 +209,13 @@ ALTERAR */
     background-image: url('Assets/Imagens/Eventos/concerto3.jpg');
 }
 
+footer {
+    width: 100%;
+    margin: 0px;
+}
+
+footer img {
+    width: 100%;
+    margin-bottom: -200px;
+    margin-top: 50px;
+}

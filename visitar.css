@@ -62,6 +62,14 @@ header {
     border-radius: 10px;
 }
 
+.imagem_fixa img {
+    position: absolute;
+    z-index: 1;
+    right: 300px;
+    top: 250px;
+    margin-bottom: 0;
+}
+
 /* Estilos para o menu responsivo
 ALTERAR */
 .menu-toggle {
@@ -107,10 +115,10 @@ ALTERAR */
     }
 }
 .centro {
-    background-image: url('Assets/Imagens/Restaurantes/arouquesa.jpg');
+    background-image: url('Assets/Imagens/Visitar/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     text-align: center;
     color: white;
     padding-top: 7%;
@@ -144,50 +152,6 @@ ALTERAR */
     text-align: center;
 }
 
-.restaurantes {
-    width: 70%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.info {
-    margin-top: 50px;
-}
-
-
-#cartao1 {
-    background-image: url('Assets/Imagens/Restaurantes/100papas.jpeg');
-}
-
-#cartao2 {
-    background-image: url('Assets/Imagens/Restaurantes/aromatico.jpg');
-}
-
-#cartao3 {
-    background-image: url('Assets/Imagens/Restaurantes/arouquesa.jpg');
-}
-
-#cartao4 {
-    background-image: url('Assets/Imagens/Restaurantes/pucara_.jpg');
-}
-
-.cartao1 {
-    margin-top: 50px;
-    text-align: center;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: 0.5s all ease;
-}
-
-.teste1 {
-    background-color: #0e0d2f6e;
-}
-
 .texto {
     margin: 0 auto;
     color: white;
@@ -206,26 +170,6 @@ ALTERAR */
 .btn-secundario {
     background-color: #41404200;
 }
-
-.galeria_info {
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-}
-
-.galeria_info h1 {
-    font-weight: 5vw;
-    margin-top: 20px;
-}
-
-.galeria_info p {
-    margin-bottom: 20px;
-}
-
-.galeria img  {
-    width: 45%;
-}
-
 
 .btn-principal {
     background-color: #ffcb05;
@@ -252,32 +196,6 @@ ALTERAR */
     transition: 0.5s all ease;
 }
 
-
-.info_nome_class {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.info_nome_class_lado {
-    color: #ffcb05;
-}
-
-
-.info_nome_class_lado h1 {
-    color: #414042;
-}
-
-
-.info_nome_class_lado i {
-    transition: 0.5s all ease;
-}
-
-.info_nome_class_lado i:hover {
-    transform: scale(1.5);
-}
-
 .btn-secundario {
     border: 2px solid 414042;
     background-color: rgba(255, 255, 255, 0);
@@ -298,6 +216,69 @@ ALTERAR */
     color:#414042;
     background-color: #ffffff;
 }
+
+.main_informacao {
+    z-index: 2;
+    width: 70%;
+    margin: 50px auto;
+}
+
+.cartao_inteiro {
+    padding-bottom: 40px;
+}
+
+#cartao1 {
+    background-image: url('Assets/Imagens/Visitar/banner.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+
+#cartao2 {
+    background-image: url('Assets/Imagens/Visitar/banner2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#cartao3 {
+    background-image: url('Assets/Imagens/Visitar/banner3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#cartao4 {
+    background-image: url('Assets/Imagens/Visitar/banner4.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#cartao5 {
+    background-image: url('Assets/Imagens/Visitar/banner5.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.info {
+    width: 100%;
+    background: linear-gradient(357deg, rgba(2,0,36,1) 0%, rgba(34,34,34,1) 0%, rgba(74,74,74,0) 100%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.galeria_imagens {
+    text-align: center;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.galeria_imagens img {
+    width: 24%;
+    height: 25vh;
+    margin: 0px;
+}
+
 footer {
     width: 100%;
     margin: 0px;
@@ -306,5 +287,5 @@ footer {
 footer img {
     width: 100%;
     margin-bottom: -200px;
-    margin-top: 50px;
+    margin-top: -110px;
 }

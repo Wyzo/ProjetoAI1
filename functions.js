@@ -45,26 +45,6 @@ document.addEventListener("DOMContentLoaded", () => {
     animarTitulo();
 });
 */
-/* ARRANJAR
-function animarTitulo() {
-    const letras = document.querySelectorAll(".titulo_animado span");
-    let delay = 0;
-
-    letras.forEach((letra, index => {
-        setTimeout(() => {
-            letra.classList.add("ativo");
-            setTimeout(() => {
-                letra.classList.remove("ativo");
-            }, 500);
-        }, delay);
-
-        delay += 200;
-    }));
-
-    setTimeout(animarTitulo, delay + 500);
-}
-
-window.onload = animarTitulo;*/
 
 function mostrarHoras(){
     const horasAtuais = new Date();
