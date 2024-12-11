@@ -63,8 +63,6 @@ header {
     border-radius: 10px;
 }
 
-/* Estilos para o menu responsivo
-ALTERAR */
 .menu-toggle {
     display: none;
     font-size: 1.5rem;
@@ -74,45 +72,11 @@ ALTERAR */
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
-    .conteudo2 {
-        flex-direction: column;
-        align-items: flex-end;
-        width: 100%;
-        text-align: right;
-    }
-
-    .nav_topo_header {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background-color: white;
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-        margin: 0;
-    }
-
-    .nav_topo_header a {
-        padding: 15px;
-        text-align: left;
-        width: 100%;
-        border-bottom: 1px solid #ddd;
-    }
-
-    .menu-toggle {
-        display: block;
-        margin: 10px;
-    }
-
-    .nav_topo_header.show {
-        display: flex;
-    }
-}
-
 .centro {
-    background-image: url('Assets/Imagens/Banners/viseu3.jpg');
+    background-image: url('../Assets/Imagens/Hoteis/avenida2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     text-align: center;
     color: white;
     padding-top: 7%;
@@ -140,68 +104,155 @@ ALTERAR */
     font-size: 7em;
 }
 
-.main_informacao {
+.cartao1 {
+    margin-top: 50px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s all ease;
+}
+
+.info {
     width: 70%;
-    margin: 0px auto;
-    background-color: #F8F8F8;
-}
-
-.formulario {
-    width: 80%;
     margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    text-align: center;
 }
 
-form p {
-    margin-top: 10px;
-    margin-bottom: 30px;
+.teste1 {
+    background-color: #0e0d2f6e;
 }
 
-.informacoes {
+.texto {
+    margin: 0 auto;
+    color: white;
+    width: 50%;
+    padding: 60px;
+}
+
+.texto h1 {
+    font-size: 10vh;
+}
+
+.btns {
     margin-top: 20px;
 }
 
-.input_contacto {
-    width: 100%;
-    height: 30px;
-    border: 2px solid #EDEDED;
-    transition: 0.5s all ease;
+.btn-secundario {
+    background-color: #41404200;
 }
 
-.input_contacto:hover {
-    border: 2px solid #ffcb05;
+#cartao1 {
+    background-image: url('../Assets/Imagens/Hoteis/pousada.jpg');
 }
 
-.input_contacto_texto {
-    border: 2px solid #EDEDED;
-    width: 100%;
-    height: 120px;
-    transition: 0.5s all ease;
+#cartao2 {
+    background-image: url('../Assets/Imagens/Hoteis/hotel-avenida.jpg');
 }
 
-.input_contacto_texto:hover {
-    border: 2px solid #ffcb05;
+#cartao3 {
+    background-image: url('../Assets/Imagens/Hoteis/montebelo.jpg');
 }
 
-#label_info {
-    background-color: #ffcb05;
-    padding: 10px;
-    transition: 0.5s all ease;
-    border-top-left-radius: 5px;
+#cartao4 {
+    background-image: url('../Assets/Imagens/Hoteis/hotel-grao-vasco.jpg');
 }
 
-#label_info:hover {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+.setas {
+    display: flex;
+    justify-content: center;
 }
 
-.mensagem_div {
+.hoteis {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.info {
     margin-top: 50px;
 }
 
-input {
+.hotel_info {
+    margin-top: 50px;
+    width: 500px;
+}
+
+.hotel_info img {
+    width: 100%;
+    background-size: 100%;
+    transition: 0.5s all ease;
+    border-radius: 5px;
+}
+
+.galeria_info {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.galeria_info h1 {
+    font-weight: 5vw;
+    margin-top: 20px;
+}
+
+.galeria_info p {
     margin-bottom: 20px;
+}
+
+.galeria img  {
+    width: 45%;
+}
+
+.hotel_info img:hover {
+    transform: scale(1.01); 
+}
+
+.botoes {
+    margin-top: 20px;
+}
+
+.btn-principal {
+    background-color: #ffcb05;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.5s all ease;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.btn-principal:hover {
+    background-color: #efb403;
+}
+
+.btn-secundario {
+    border: 2px solid 414042;
+    background-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    border: 0;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.5s all ease;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.btn-secundario:hover {
+    color:#414042;
+    background-color: #ffffff;
 }
 
 .imagem_fundo_cidade {

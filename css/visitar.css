@@ -71,8 +71,6 @@ header {
     margin-bottom: 0;
 }
 
-/* Estilos para o menu responsivo
-ALTERAR */
 .menu-toggle {
     display: none;
     font-size: 1.5rem;
@@ -82,41 +80,8 @@ ALTERAR */
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
-    .conteudo2 {
-        flex-direction: column;
-        align-items: flex-end;
-        width: 100%;
-        text-align: right;
-    }
-
-    .nav_topo_header {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background-color: white;
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-        margin: 0;
-    }
-
-    .nav_topo_header a {
-        padding: 15px;
-        text-align: left;
-        width: 100%;
-        border-bottom: 1px solid #ddd;
-    }
-
-    .menu-toggle {
-        display: block;
-        margin: 10px;
-    }
-
-    .nav_topo_header.show {
-        display: flex;
-    }
-}
 .centro {
-    background-image: url('Assets/Imagens/Visitar/banner.jpg');
+    background-image: url('../Assets/Imagens/Visitar/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -229,32 +194,32 @@ ALTERAR */
 }
 
 #cartao1 {
-    background-image: url('Assets/Imagens/Visitar/banner.jpg');
+    background-image: url('../Assets/Imagens/Visitar/banner.jpg');
     background-size: cover;
     background-position: top;
 }
 
 
 #cartao2 {
-    background-image: url('Assets/Imagens/Visitar/banner2.jpg');
+    background-image: url('../Assets/Imagens/Visitar/banner2.jpg');
     background-size: cover;
     background-position: center;
 }
 
 #cartao3 {
-    background-image: url('Assets/Imagens/Visitar/banner3.jpg');
+    background-image: url('../Assets/Imagens/Visitar/banner3.jpg');
     background-size: cover;
     background-position: center;
 }
 
 #cartao4 {
-    background-image: url('Assets/Imagens/Visitar/banner4.png');
+    background-image: url('../Assets/Imagens/Visitar/banner4.png');
     background-size: cover;
     background-position: center;
 }
 
 #cartao5 {
-    background-image: url('Assets/Imagens/Visitar/banner5.png');
+    background-image: url('../Assets/Imagens/Visitar/banner5.png');
     background-size: cover;
     background-position: center;
 }

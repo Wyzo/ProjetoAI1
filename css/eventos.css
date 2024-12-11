@@ -63,8 +63,6 @@ header {
     border-radius: 10px;
 }
 
-/* Estilos para o menu responsivo
-ALTERAR */
 .menu-toggle {
     display: none;
     font-size: 1.5rem;
@@ -74,42 +72,8 @@ ALTERAR */
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
-    .conteudo2 {
-        flex-direction: column;
-        align-items: flex-end;
-        width: 100%;
-        text-align: right;
-    }
-
-    .nav_topo_header {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background-color: white;
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-        margin: 0;
-    }
-
-    .nav_topo_header a {
-        padding: 15px;
-        text-align: left;
-        width: 100%;
-        border-bottom: 1px solid #ddd;
-    }
-
-    .menu-toggle {
-        display: block;
-        margin: 10px;
-    }
-
-    .nav_topo_header.show {
-        display: flex;
-    }
-}
-
 .centro {
-    background-image: url('Assets/Imagens/Hoteis/avenida2.jpg');
+    background-image: url('../Assets/Imagens/Eventos/concerto3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -140,155 +104,74 @@ ALTERAR */
     font-size: 7em;
 }
 
-.cartao1 {
-    margin-top: 50px;
-    text-align: center;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: 0.5s all ease;
-}
-
-.info {
+.main_informacao {
     width: 70%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.teste1 {
-    background-color: #0e0d2f6e;
-}
-
-.texto {
-    margin: 0 auto;
-    color: white;
-    width: 50%;
-    padding: 60px;
-}
-
-.texto h1 {
-    font-size: 10vh;
-}
-
-.btns {
-    margin-top: 20px;
-}
-
-.btn-secundario {
-    background-color: #41404200;
-}
-
-#cartao1 {
-    background-image: url('Assets/Imagens/Hoteis/pousada.jpg');
-}
-
-#cartao2 {
-    background-image: url('Assets/Imagens/Hoteis/hotel-avenida.jpg');
-}
-
-#cartao3 {
-    background-image: url('Assets/Imagens/Hoteis/montebelo.jpg');
-}
-
-#cartao4 {
-    background-image: url('Assets/Imagens/Hoteis/hotel-grao-vasco.jpg');
-}
-
-.setas {
-    display: flex;
-    justify-content: center;
-}
-
-.hoteis {
-    width: 70%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 50px;
+    margin: 0px auto;
 }
 
 .info {
     margin-top: 50px;
+    text-align: center;
 }
 
-.hotel_info {
+.evento {
     margin-top: 50px;
-    width: 500px;
-}
-
-.hotel_info img {
-    width: 100%;
-    background-size: 100%;
-    transition: 0.5s all ease;
+    margin-bottom: 10vh;
     border-radius: 5px;
+    border: solid #f0f0f0 0.5px;
+    box-shadow: 10px 10px 73px -5px rgba(0, 0, 0, 0.195);
 }
 
-.galeria_info {
+#evento1, #evento2, #evento3 img {
     text-align: center;
-    width: 70%;
-    margin: 0 auto;
-}
-
-.galeria_info h1 {
-    font-weight: 5vw;
-    margin-top: 20px;
-}
-
-.galeria_info p {
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s all ease;
     margin-bottom: 20px;
+    height: 20vh;
 }
 
-.galeria img  {
-    width: 45%;
+#evento3 {
+    text-align: center;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s all ease;
+    margin-bottom: 20px;
+    height: 20vh;
 }
 
-.hotel_info img:hover {
-    transform: scale(1.01); 
+#evento1:hover {
+    background-size: 105%;
 }
 
-.botoes {
-    margin-top: 20px;
-}
-
-.btn-principal {
-    background-color: #ffcb05;
+.banner_evento {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     color: white;
-    border: 0;
-    border-radius: 20px;
+}
+
+.acima_evento {
     padding: 10px;
-    font-weight: bold;
-    transition: 0.5s all ease;
-    width: 150px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 5px;
 }
 
-.btn-principal:hover {
-    background-color: #efb403;
-}
-
-.btn-secundario {
-    border: 2px solid 414042;
-    background-color: rgba(255, 255, 255, 0);
-    color: #ffffff;
-    border: 0;
-    border-radius: 20px;
-    border: 2px solid white;
+.sobre_evento {
     padding: 10px;
-    font-weight: bold;
-    transition: 0.5s all ease;
-    width: 150px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 5px;
 }
 
-.btn-secundario:hover {
-    color:#414042;
-    background-color: #ffffff;
+.sobre_evento p{
+    margin-bottom: 10px;
+}
+
+#evento1 {
+    background-image: url('../Assets/Imagens/Eventos/concerto8.jpg');
+}
+
+#evento2 {
+    background-image: url('../Assets/Imagens/Eventos/concerto9.jpg');
+}
+
+#evento3 {
+    background-image: url('../Assets/Imagens/Eventos/concerto3.jpg');
 }
 
 .imagem_fundo_cidade {

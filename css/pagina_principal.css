@@ -67,8 +67,6 @@ header {
     border-radius: 10px;
 }
 
-/* Estilos para o menu responsivo
-ALTERAR */
 .menu-toggle {
     display: none;
     font-size: 1.5rem;
@@ -76,40 +74,6 @@ ALTERAR */
     border: none;
     color: #ffcb05;
     cursor: pointer;
-}
-
-@media (max-width: 768px) {
-    .conteudo2 {
-        flex-direction: column;
-        align-items: flex-end;
-        width: 100%;
-        text-align: right;
-    }
-
-    .nav_topo_header {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background-color: white;
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-        margin: 0;
-    }
-
-    .nav_topo_header a {
-        padding: 15px;
-        text-align: left;
-        width: 100%;
-        border-bottom: 1px solid #ddd;
-    }
-
-    .menu-toggle {
-        display: block;
-        margin: 10px;
-    }
-
-    .nav_topo_header.show {
-        display: flex;
-    }
 }
 
 .teste_sec {
@@ -152,7 +116,7 @@ ALTERAR */
 }
 
 .centro_index {
-    background-image: url('Assets/Imagens/Banners/viseu1.jpg');
+    background-image: url('../Assets/Imagens/Banners/viseu1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -282,7 +246,7 @@ ALTERAR */
 
 .cartao1 {
     text-align: center;
-    background-image: url('Assets/Imagens/Banners/viseu1.jpg');
+    background-image: url('../Assets/Imagens/Banners/viseu1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -292,7 +256,7 @@ ALTERAR */
 
 .cartao2 {
     text-align: center;
-    background-image: url('Assets/Imagens/Banners/comida.jpg');
+    background-image: url('../Assets/Imagens/Banners/comida.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -300,7 +264,7 @@ ALTERAR */
 
 .cartao3 {
     text-align: center;
-    background-image: url('Assets/Imagens/Banners/viseu2.jpeg');
+    background-image: url('../Assets/Imagens/Banners/viseu2.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -340,7 +304,7 @@ ALTERAR */
 }
 
 .cartoes_atracoes {
-    background-image: url('Assets/Imagens/Banners/azulejo.jpg');
+    background-image: url('../Assets/Imagens/Banners/azulejo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
