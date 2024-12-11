@@ -12,10 +12,6 @@ html {
 header {
     background-color: #414042;
 }
- 
-header {
-    background-color: #414042;
-}
 
 .conteudo1 img {
     width: 7vh;
@@ -59,6 +55,7 @@ header {
     padding: 10px;
     transition: 0.5s all ease;
     color: #414042;
+    display: block;
 }
 
 .nav_topo_header a:hover {
@@ -67,8 +64,14 @@ header {
     border-radius: 10px;
 }
 
+/*ELE MOSTRA ISTO*/
+.nav_topo_header.show {
+    display: block;
+}
+
+/*ELE CLICA AQUI*/
 .menu-toggle {
-    display: none;
+    display: block;
     font-size: 1.5rem;
     background: none;
     border: none;
