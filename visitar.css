@@ -280,16 +280,6 @@ ALTERAR */
     margin: 0px;
 }
 
-footer {
-    width: 100%;
-    margin: 0px;
-}
-
-footer img {
-    width: 100%;
-    margin-bottom: -200px;
-    margin-top: -110px;
-}
 
 .btn_voltaracima {
     left: 90vw;
@@ -310,4 +300,51 @@ footer img {
 .btn_voltaracima:hover {
     color: white;
     background-color: #ffcb05;
+}
+
+
+.imagem_fundo_cidade {
+    width: 100%;
+    margin: 0px;
+}
+
+.imagem_fundo_cidade img {
+    width: 100%;
+    margin-top: -110px;
+    margin-bottom: -5px;
+}
+
+.footer_cima {
+    background-color: #414042;
+}
+
+.footer_baixo {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer_baixo a {
+    text-decoration: none;
+    color: white;
+}
+
+.dentro_footer {
+    width: 70%;
+    margin: 0px auto;
+    color: #cecece;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.autores {
+    text-align: center;
+    display: inline-flex;
+}
+
+.autores p {
+    padding-left: 40px;
 }

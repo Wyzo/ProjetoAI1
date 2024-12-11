@@ -21,30 +21,6 @@ function iniciarSliderAutomatico() {
 document.addEventListener("DOMContentLoaded", () => {
     iniciarSliderAutomatico();
 });
-/*
-function animarTitulo() {
-    const letras = document.querySelectorAll(".titulo_animado span");
-
-    let delay = 0;
-
-    letras.forEach((letra, index) => {
-        setTimeout(() => {
-            letra.classList.add("titulo_animado_ativo");
-            setTimeout(() => {
-                letra.classList.remove("titulo_animado_ativo");
-            }, 300);
-        }, delay);
-
-        delay += 300;
-    });
-
-    setTimeout(animarTitulo, delay + 10);
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-    animarTitulo();
-});
-*/
 
 function mostrarHoras(){
     const horasAtuais = new Date();

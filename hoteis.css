@@ -187,13 +187,17 @@ ALTERAR */
 }
 
 #cartao3 {
-    background-image: url('Assets/Imagens/Hoteis/050239-pool.jpg');
+    background-image: url('Assets/Imagens/Hoteis/montebelo.jpg');
 }
 
 #cartao4 {
     background-image: url('Assets/Imagens/Hoteis/hotel-grao-vasco.jpg');
 }
 
+.setas {
+    display: flex;
+    justify-content: center;
+}
 
 .hoteis {
     width: 70%;
@@ -287,15 +291,50 @@ ALTERAR */
     background-color: #ffffff;
 }
 
-footer {
+.imagem_fundo_cidade {
     width: 100%;
     margin: 0px;
 }
 
-footer img {
+.imagem_fundo_cidade img {
     width: 100%;
-    margin-bottom: -200px;
-    margin-top: 50px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+}
+
+.footer_cima {
+    background-color: #414042;
+}
+
+.footer_baixo {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer_baixo a {
+    text-decoration: none;
+    color: white;
+}
+
+.dentro_footer {
+    width: 70%;
+    margin: 0px auto;
+    color: #cecece;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.autores {
+    text-align: center;
+    display: inline-flex;
+}
+
+.autores p {
+    padding-left: 40px;
 }
 
 .btn_voltaracima {
