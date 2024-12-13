@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #ffcb05 #414042;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #414042;
+}
+
+.conteudo1 img {
+    width: 7vh;
+    margin: 10px;
+}
+
+#atual {
+    background-color: #ffcb05;
+    color: #414042;
+    border-radius: 10px;
+}
+
+.nav_topo {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.conteudo1, .conteudo2 {
+    display: flex;
+    align-items: center;
+}
+
+.conteudo1 {
+    width: 20%;
+}
+
+.conteudo2 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    text-align: end;
+    background-color: white;
+}
+
+.nav_topo_header a {
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.5s all ease;
+    color: #414042;
+    display: block;
+}
+
+.nav_topo_header a:hover {
+    background-color: #ffcb05;
+    color: #432005;
+    border-radius: 10px;
+}
+
+/*ELE MOSTRA ISTO*/
+.nav_topo_header.show {
+    display: block;
+}
+
+/*ELE CLICA AQUI*/
+.menu-toggle {
+    display: block;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #ffcb05;
+    cursor: pointer;
+}
+
+
+.centro {
+    background-image: url('../Assets/Imagens/Deslocar/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    clip-path: polygon(100% 0, 100% 85%, 85% 100%, 0 100%, 0 0);
+    text-shadow: 4px 4px 15px rgba(0,0,0,0.6);
+}
+
+#centro {
+    transition: background-image 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+
+#centro.fade {
+    opacity: 0;
+}
+
+.centro h3 {
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+.centro h1 {
+    font-weight: bolder;
+    font-size: 7em;
+}
+
+.btn-secundario {
+    background-color: #41404200;
+}
+
+.setas {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-principal {
+    background-color: #ffcb05;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.5s all ease;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.btn-principal:hover {
+    background-color: #efb403;
+}
+
+.btn-secundario {
+    border: 2px solid 414042;
+    background-color: rgba(255, 255, 255, 0);
+    color: #414042;
+    border: 0;
+    border-radius: 20px;
+    border: 2px solid #414042;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.5s all ease;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.btn-secundario:hover {
+    color:#efb403;
+    border: 2px solid #efb403;
+    background-color: #ffffff;
+}
+
+.info_main {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 0.5s all ease;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.info img {
+    width: 100%;
+    position: relative;
+}
+
+
+.texto {
+    width: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.btns {
+    margin-top: 20px;
+}
+
+.imagem_fundo_cidade {
+    width: 100%;
+    margin: 0px;
+}
+
+.imagem_fundo_cidade img {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: -5px;
+}
+
+.footer_cima {
+    background-color: #414042;
+}
+
+.footer_baixo {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer_baixo a {
+    text-decoration: none;
+    color: white;
+}
+
+.dentro_footer {
+    width: 70%;
+    margin: 0px auto;
+    color: #cecece;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.autores {
+    text-align: center;
+    display: inline-flex;
+}
+
+.autores p {
+    padding-left: 40px;
+}
+
+.btn_voltaracima {
+    left: 90vw;
+    top: 90vh;
+    position: fixed;
+    width: 40px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 100%;
+    transition: 0.5s all ease;
+}
+
+.btn_voltaracima i {
+    color: #414042;
+    padding: 12px;
+}
+
+.btn_voltaracima:hover {
+    color: white;
+    background-color: #ffcb05;
+}
