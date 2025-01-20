@@ -1,5 +1,0 @@
-TODO
-
-- Trocar opção menu "mapa interativo" para informações de deslocação, autocarros, taxis etc
-- Adicionar opção menu onde fazer compras, forum, palacio e as suas lojas
-- Função de JS para o form de contacto
