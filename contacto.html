@@ -43,42 +43,15 @@
     <div class="btn_voltaracima">
         <a href="#topo"><i class="fa-solid fa-arrow-up"></i></a>
     </div>
-    <main class="main_informacao">
-        <form action="" class="formulario">
-            <h1>Contacte-nos</h1>
-            <p>Para lhe darmos uma melhor resposta aos pedidos de informação, sugestões, elogios ou reclamações, é importante que preencha corretamente todos os campos de dados que solicitamos.</p>
-            
-            <h1>Informações, Elogios, Reclamações ou Sugestões</h1>
-            
-            <div class="motivo">
-                <p>Motivo do contacto</p>
-                <input type="radio" id="elogio" name="motivo_select" value="Elogio" class="radio">
-                <label for="html">Elogio</label><br>
-                <input type="radio" id="elogio" name="motivo_select" value="Reclamação" class="radio">
-                <label for="css">Reclamação</label><br>
-                <input type="radio" id="elogio" name="motivo_select" value="Informação" class="radio">
-                <label for="javascript">Informação</label><br>
-                <input type="radio" id="elogio" name="motivo_select" value="Sugestão" class="radio">
-                <label for="javascript">Sugestão</label>
-            </div>
-            <div class="informacoes">
-                <label for="nome" id="label_info">Nome</label><br>
-                <input type="text" id="nome" class="input_contacto">
-                <br>
-                <label for="email" id="label_info">Email</label><br>
-                <input type="email" name="email" id="email" class="input_contacto">
-                <br>
-                <label for="telefone" id="label_info">Contacto telefónico</label><br>
-                <input type="tel" name="telefone" id="telefone" class="input_contacto">
-            </div>
 
-            <div class="mensagem_div">
-                <label for="mensagem" id="label_info">Mensagem</label><br>
-                <input type="text" name="texto" id="texto" class="input_contacto_texto">
-            </div>
-        </form>
-        
-    </main>
+    <div id="root"></div>
+
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+
+    <script type="text/babel" src="js/formulario.js"></script>
+
     <div class="imagem_fundo_cidade">
         <img src="Assets/Imagens/fundo_banner4.png" alt="">
     </div>
@@ -96,6 +69,7 @@
         <i class="fa-brands fa-github"></i>
         <a href="https://github.com/Wyzo/ProjetoAI1">Código</a>
     </footer>
+
     <script src="js/functions.js" defer></script>
 </body>
 </html>

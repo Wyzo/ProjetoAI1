@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="teste.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap">
+  <link rel="icon" href="../PaginaPrincipal/imagens/logo-removebg-preview.png" type="image/x-icon">
+  <meta name="description" content="Situada em Viseu, a 300 metros da Catedral de Viseu e a 400 metros da Igreja da Miseric&oacute;rdia de Viseu,a Vigia's Guest House disponibiliza acesso Wi-Fi gratuito e ar condicionado. A propriedade  oferece vistas da cidade e encontra-se a 1,3 km do Festival de M&uacute;sica Moderna de Viseu e a 500  metros do Museu Gr&atilde;oVasco. O apartamento inclui 1 quarto, uma televis&atilde;o de ecr&atilde; plano com canais por cabo, uma cozinha equipada  com um micro-ondas e um frigor&iacute;fico, uma m&aacute;quina de lavar roupa e 1 casa de banho com um bid&eacute;. S&atilde;o  fornecidas toalhas e roupa de cama.">
+  <meta name="keywords" content="HTML, ESTGV, EI, AI1, REACT, CSS, TP, JS, VIGIA'S GUEST HOUSE">
+  <meta name="author" content="Martim Lourenco, Tomas Azoia, Miguel Caetano">
+  <title>Contacte</title>
+</head> 
+
+<body>
+  <nav>
+	<a href="../PaginaPrincipal/index.html"><img src="../PaginaPrincipal/imagens/nav.png" id="foto_nav" alt="logo"></a>
+
+	<div id="links">
+	  <a href="../Reserve/reserve.html">Reserve</a>
+	  <a href="../subpagina-turismo/turismo.html">Turismo</a>
+	  <div class="dropdown">
+		<button class="dropbtn">Fotos
+		</button>
+		<div class="dropdown-content">
+		  <a href="../subpagina-fotos/fotos.html">Fotos da Casa</a>
+		  <a href="../subpagina-fotos/fotoscidade.html">Fotos da Cidade</a>
+		</div>
+	  </div>
+	  <a href="../Contacte/contacte.html">Contacte</a>
+	  <a href="../subpagina-avaliacao/avaliacao.html">Avalia&ccedil;&atilde;o</a>
+	  <a href="../Quiz/quiz.html">Quiz</a>
+	</div>
+  </nav>
+
+  <div id="root"></div>
+
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js"></script>
+
+  <script type="text/babel" src="./js/formulario.js"></script>
+
+  <footer>
+	<div class="footer-container">
+	  <div class="footer-logo">
+		<img src="../PaginaPrincipal/imagens/logo-removebg-preview.png" alt="Logo">
+	  </div>
+
+	  <div class="footer-paginas">
+        <a href="../Developers/developers.html">Developers</a>
+        <a href="../subpagina-turismo/turismo.html">Turismo</a>
+        <a href="../subpagina-fotos/fotos.html">Fotos</a>
+        <a href="../Contacte/contacte.html">Contacte</a>
+        <a href="../subpagina-avaliacao/avaliacao.html">Avalia&ccedil;&atilde;o</a>
+        <a href="../Quiz/quiz.html">Quiz</a>
+	  </div>
+
+	</div>
+	<div class="footer-bottom">
+	  <p>&copy; 2024 Vigia's Guest House. Todos os direitos reservados.</p>
+	  <p id="time"></p>
+	</div>
+
+  </footer>
+  <script src="../time.js" async></script>
+</body>
+
+</html>
