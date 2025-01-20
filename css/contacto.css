@@ -241,3 +241,37 @@ input {
     color: white;
     background-color: #ffcb05;
 }
+
+.btn-principal {
+    background-color: #ffcb05;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.5s all ease;
+}
+
+.btn-principal a {
+    text-decoration: none;
+    color: white
+}
+
+.btn-principal:hover {
+    background-color: #efb403;
+}
+
+.btns {
+    margin-top: 20px;
+}
+
+.btn-secundario {
+    background-color: #ffffff;
+    color: #414042;
+    border: 2px solid #414042;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.5s all ease;
+    margin-left: 20px;
+}

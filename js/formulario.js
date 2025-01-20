@@ -68,10 +68,19 @@ const ContactForm = () => {
             <br />
             <input type="text" name="mensagem" value={formData.mensagem} onChange={handleChange}  id="texto" class="input_contacto_texto"/>
           </div>
-          <div class="btns">
-              <button class="btn-principal" type="submit">Enviar</button>
-              <button class="btn-secundario" type="reset">Apagar</button>
-          </div>
+            <input type="submit" class="btn-principal" value="Enviar mensagem"/>
+            <button type="button" className="btn-secundario" 
+            onClick={() =>
+            setFormData({
+              nome: '',
+              apelido: '',
+              email: '',
+              mensagem: '',
+              })
+            }
+          >
+          Apagar
+          </button>
       </form>
     </div>
 
