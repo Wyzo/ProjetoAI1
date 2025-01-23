@@ -56,8 +56,9 @@ header {
     transition: 0.5s all ease;
     color: #414042;
     display: block;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-
 .nav_topo_header a:hover {
     background-color: #ffcb05;
     color: #432005;

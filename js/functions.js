@@ -2,9 +2,11 @@ function iniciarSliderAutomatico() {
     const div_centro = document.getElementById("centro_index");
 
     const imagens = 
-    [   "Assets/Imagens/Banners/viseu1.jpg", 
-        "Assets/Imagens/Banners/viseu_teste2.jpg",
-        "Assets/Imagens/Banners/viseu_teste4.jpg"];
+    [   "Assets/Imagens/Banners/fundo_viseu1.webp", 
+        "Assets/Imagens/Banners/fundo_viseu2.webp",
+        "Assets/Imagens/Banners/fundo_viseu3.webp",
+        "Assets/Imagens/Banners/viseu2.jpeg",
+        "Assets/Imagens/Banners/viseu1.jpg"];
 
     let indiceAtual = 0;
 

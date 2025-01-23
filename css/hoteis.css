@@ -56,8 +56,9 @@ header {
     transition: 0.5s all ease;
     color: #414042;
     display: block;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-
 .nav_topo_header a:hover {
     background-color: #ffcb05;
     color: #432005;
@@ -229,13 +230,14 @@ header {
     color: white;
     border: 0;
     border-radius: 20px;
-    padding: 10px;
+    padding: 7px 50px 8px 50px;
     font-weight: bold;
     transition: 0.5s all ease;
     width: 150px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 5px;
+    text-decoration: none;
 }
 
 .btn-principal:hover {
@@ -243,13 +245,14 @@ header {
 }
 
 .btn-secundario {
+    text-decoration: none;
     border: 2px solid 414042;
     background-color: rgba(255, 255, 255, 0);
     color: #ffffff;
     border: 0;
     border-radius: 20px;
     border: 2px solid white;
-    padding: 10px;
+    padding: 7px 50px 8px 50px;
     font-weight: bold;
     transition: 0.5s all ease;
     width: 150px;

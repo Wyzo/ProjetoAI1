@@ -56,6 +56,8 @@ header {
     transition: 0.5s all ease;
     color: #414042;
     display: block;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .nav_topo_header a:hover {
@@ -179,6 +181,46 @@ header {
 
 #evento3 {
     background-image: url('../Assets/Imagens/Eventos/concerto3.jpg');
+}
+
+.evento2 {
+    border: 1px solid #cecece;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.interior {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.evento2 img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.sobre {
+    padding: 70px;
+}
+
+.horario {
+    background-color: #F3F5F8;
+    border-radius: 10px;
+}
+
+.horario i {
+    color: #ffcb05;
+}
+
+.fundo_horario {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    margin: 0px auto;
 }
 
 .imagem_fundo_cidade {
