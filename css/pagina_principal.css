@@ -124,28 +124,66 @@ header {
     background: linear-gradient(357deg, rgba(2,0,36,1) 0%, rgba(34,34,34,0.7960434173669468) 0%, rgba(252,252,252,0) 100%);
 }
 
+.teste2 {
+    text-align: center;
+    background-image: url('Assets/Imagens/comida1\ \(1\)\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.5s ease all;
+}
+
+.teste2:hover {
+    background-size: 110%;
+}
+
+
 #img1 {
     background: url('../Assets/Imagens/Banners/comer.webp');
     background-position: center;
-    background-size: cover;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s ease all;
+}
+
+#img1:hover {
+    background-size: 210% 105%;
 }
 
 #img2 {
     background-image: url('../Assets/Imagens/Banners/dormir.webp');
     background-position: center;
-    background-size: cover;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s ease all;
+}
+
+#img2:hover {
+    background-size: 210% 105%;
 }
 
 #img3 {
-    background-image: url('../Assets/Imagens/Eventos/concerto8.jpg');
+    background-image: url('../Assets/Imagens/Banners/evento.jpg');
     background-position: center;
-    background-size: cover;
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s ease all;
+}
+
+#img3:hover {
+    background-size: 210% 105%;
 }
 
 #img4 {
     background-image: url('../Assets/Imagens/Visitar/banner.jpg');
     background-position: center;
-    background-size: cover;
+    background-size: 300% 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s ease all;
+}
+
+#img4:hover {
+    background-size: 310% 105%;
 }
 
 .conteudo1, .conteudo2 {
@@ -432,14 +470,14 @@ header {
 }
 
 .texto h1{
-    width: 50%;
-    font-size: 1.9em;
+    width: 70%;
+    font-size: 2em;
     margin: 0px auto;
 }
 
 .texto p {
-    width: 50%;
-    font-size: 1em;
+    width: 70%;
+    font-size: 1.2em;
     font-weight: 400;
     margin: 0px auto;
 }
