@@ -123,88 +123,54 @@ header {
     text-align: center;
 }
 
-.evento {
-    margin-top: 50px;
-    margin-bottom: 10vh;
-    border-radius: 5px;
-    border: solid #f0f0f0 0.5px;
-    box-shadow: 10px 10px 73px -5px rgba(0, 0, 0, 0.195);
-}
-
-#evento1, #evento2, #evento3 img {
-    text-align: center;
-    background-size: 100%;
-    background-position: center;
-    transition: 0.5s all ease;
-    margin-bottom: 20px;
-    height: 20vh;
-}
-
-#evento3 {
-    text-align: center;
-    background-size: 100%;
-    background-position: center;
-    transition: 0.5s all ease;
-    margin-bottom: 20px;
-    height: 20vh;
-}
-
-#evento1:hover {
-    background-size: 105%;
-}
-
-.banner_evento {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    color: white;
-}
-
-.acima_evento {
-    padding: 10px;
-}
-
-.sobre_evento {
-    padding: 10px;
-}
-
-.sobre_evento p{
-    margin-bottom: 10px;
-}
-
-#evento1 {
-    background-image: url('../Assets/Imagens/Eventos/concerto8.jpg');
-}
-
-#evento2 {
-    background-image: url('../Assets/Imagens/Eventos/concerto9.jpg');
-}
-
-#evento3 {
-    background-image: url('../Assets/Imagens/Eventos/concerto3.jpg');
-}
-
 .evento2 {
     border: 1px solid #cecece;
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+    transition: 0.3s all ease;
+}
+
+.evento2:hover {
+    border: 1px solid #ffcb05;
+    box-shadow: 10px 10px 75px -38px rgba(0,0,0,0.75);
 }
 
 .interior {
     padding: 20px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.evento2 img {
-    width: 250px;
-    height: 250px;
+.banner {
+    width: 500px;
+}
+
+.banner img {
+    width: 98%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .sobre {
-    padding: 70px;
+    width: 500px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.sobre h1 {
+    background-color: #ffcb05;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+.sobre p {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .horario {
@@ -219,10 +185,9 @@ header {
 .fundo_horario {
     display: flex;
     justify-content: center;
-    padding: 70px;
+    padding: 50px;
     margin: 0px auto;
 }
-
 .imagem_fundo_cidade {
     width: 100%;
     margin: 0px;

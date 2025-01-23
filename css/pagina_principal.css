@@ -35,7 +35,8 @@ header {
 .descobrir {
     width: 70%;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 0px auto;
     margin-top: 150px;
     background-color: white;
@@ -48,6 +49,10 @@ header {
 }
 .descobrir p {
     font-size: 1.5em;
+}
+
+.texto-descobrir {
+    width: 500px;
 }
 
 .viver {
@@ -89,8 +94,12 @@ header {
 }
 
 .imagens_btns {
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .banner_btn {
@@ -395,7 +404,8 @@ header {
 
 .cartao1 {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     transition: 0.5s all ease;
 }
 
@@ -408,6 +418,7 @@ header {
 }
 
 .texto {
+    width: 50%;
     background-color: #ffbc05;
     padding-top: 10vh;
     padding-bottom: 10vh;
