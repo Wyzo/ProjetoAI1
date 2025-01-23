@@ -10,7 +10,7 @@ html {
 }
 
 header {
-    background-color: #414042;
+    background-color: #ffffff;
 }
 
 .conteudo1 img {
@@ -47,7 +47,7 @@ header {
     margin-bottom: 20px;
 }
 .descobrir p {
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 .viver {
@@ -84,6 +84,10 @@ header {
     margin-bottom: 30px;
 }
 
+.descobrir {
+    margin-bottom: -50px;
+}
+
 .imagens_btns {
     display: flex;
     justify-content: center;
@@ -103,7 +107,7 @@ header {
 }
 
 .testea h1 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: white;
     padding-top: 450px;
     padding-bottom: 30px;
@@ -224,7 +228,7 @@ header {
 }
 
 .centro_index {
-    width: 90%;
+    width: 95%;
     background-image: url('../Assets/Imagens/Banners/viseu1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -390,62 +394,43 @@ header {
 }
 
 .cartao1 {
-    text-align: center;
-    background-image: url('../Assets/Imagens/Banners/viseu1.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /*clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);*/
+    display: flex;
+    justify-content: center;
     transition: 0.5s all ease;
 }
 
-.cartao2 {
-    text-align: center;
-    background-image: url('../Assets/Imagens/Banners/comida.jpg');
+.banner_img {
+    width: 50%;
+    background-image: url('../Assets/Imagens/Banners/viseu6.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.cartao3 {
-    text-align: center;
-    background-image: url('../Assets/Imagens/Banners/viseu2.jpeg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /*clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);*/
 }
 
 .texto {
-    background-color: #21212181;
+    background-color: #ffbc05;
     padding-top: 10vh;
     padding-bottom: 10vh;
     color: white;
-    width: 100%;
+    width: 50%;
     margin: 0px auto;
 }
 
+.interior_texto {
+    padding: 30px;
+}
+
 .texto h1{
-    font-size: 5em;
+    width: 50%;
+    font-size: 1.9em;
+    margin: 0px auto;
 }
 
 .texto p {
     width: 50%;
-    margin: 0 auto;
     font-size: 1em;
     font-weight: 400;
-}
-
-.atracoes h1 {
-    margin-bottom: 50px;
-}
-
-.atracoes {
-    text-align: center;
-    width: 70%;
     margin: 0px auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .cartoes_atracoes {
